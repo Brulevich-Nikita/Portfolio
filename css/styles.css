@@ -11121,6 +11121,22 @@ body {
 
 .projects-section {
   padding: 10rem 0;
+  background-color: #f8f9fa;
+  
+  background-image: 
+    linear-gradient(to bottom, #1a1a1a 0%, rgba(26, 26, 26, 0) 150px),
+    radial-gradient(#d1d5db 2px, transparent 2px), 
+    radial-gradient(#d1d5db 2px, transparent 2px);
+    
+  background-size: 
+    100% 100%,
+    40px 40px,
+    40px 40px;
+    
+  background-position: 
+    0 0, 
+    0 0, 
+    20px 20px;
 }
 .projects-section .featured-text {
   padding: 2rem;
